@@ -1,0 +1,9 @@
+button[data-bs-toggle="modal"]{
+    font-size:20px;
+}
+
+.accordion-button:focus{
+    border-color:transparent !important;
+    z-index:0 !important;
+    box-shadow:none !important;
+}

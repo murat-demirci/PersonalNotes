@@ -1,0 +1,19 @@
+﻿@model Portal.Models.NoteViewModel
+<div class="text-center my-2">
+    <button type="button" class="btn btn-outline-primary" id="btnAdd">
+        New Note
+    </button>
+    <div class="my-3" id="notePlace">
+        <div class="accordion accordion-flush" id="parent">
+        </div>
+    </div>
+</div>
+
+<div id="modalPlace"></div>
+@section Scripts{
+    <script src="~/js/deleteChild.js" type="application/ecmascript"></script>
+    <script src="~/js/deleteMain.js" type="application/ecmascript"></script>
+    <script src="~/js/mainAdd.js" type="application/ecmascript"></script>
+    <script src="~/js/childAdd.js" type="application/ecmascript"></script>
+
+}
